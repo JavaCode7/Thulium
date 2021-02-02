@@ -44,3 +44,11 @@
     0111
     1000
     0110
+
+## Download
+
+ [Linux](https://github.com/JavaCode7/Thulium/releases/download/v0.0.1/thulium-linux)
+
+ [Windows](https://github.com/JavaCode7/Thulium/releases/download/v0.0.1/thulium-win.exe)
+
+ [Macos](https://github.com/JavaCode7/Thulium/releases/download/v0.0.1/thulium-macos)
