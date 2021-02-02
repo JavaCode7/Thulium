@@ -47,14 +47,14 @@
 
 ## Download
 
-### 0.0.1
+### 1.0.0
 
- [Linux](https://github.com/JavaCode7/Thulium/releases/download/v0.0.1/thulium-linux)
+ [Linux](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-linux)
 
- [Windows](https://github.com/JavaCode7/Thulium/releases/download/v0.0.1/thulium-win.exe)
+ [Windows](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-win.exe)
 
- [Macos](https://github.com/JavaCode7/Thulium/releases/download/v0.0.1/thulium-macos)
+ [Macos](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-macos)
 
 ## Future Updates
 
- A high-level version of thulium is coming soon (after version 1.0.1 when it comes) and i may upload a js version to npm.
+ A high-level version of thulium is coming soon (after version 2.0.0 when it comes) and i may upload a js version to npm.
