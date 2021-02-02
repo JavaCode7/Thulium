@@ -3,7 +3,7 @@
 
  I got the idea for this programming language fom a repository I found called [Jellyscript](https://github.com/nguyenphuminh/Jellyscript) and decided to learn TypeScript by creating a version of it that's even more painful and weird. And I thought the best name for this language is something tht reflects the fact that it is devoid of all use. Thulium is the least useful element of the periodic table that is naturally occurring and that's the inspiration for the name.
 
- **Before reading this please check out [Jellyscript](https://github.com/nguyenphuminh/Jellyscript). It's a great esolang and it will help you understand thulium 1 (version 2 is going to be less esoteric as it will be much more high-level) better.**
+ _**Before reading this please check out [Jellyscript](https://github.com/nguyenphuminh/Jellyscript). It's a great esolang and it will help you understand thulium 1 (version 2 is going to be less esoteric as it will be much more high-level) better.**_
 
 ## Assets
  - 13 commands,
@@ -12,7 +12,7 @@
  - 1 permanent memory cell
 
 ## Syntax
- Thulium has 13 commands (numbered 0 - 12 or 0000 - 1100), each doing something simple and useless but when combined, can actually have a decent function.
+ Thulium has 13 commands (numbered 0 - 12 or 0000 - 1100), each doing something simple and trivial but when combined, can actually have a decent function.
 
  - 0000 -- this command moves right in the grid
  - 0001 -- left in the grid
