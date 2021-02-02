@@ -59,4 +59,4 @@
 
 ## Future Updates
 
- A high-level version of thulium is coming soon (after version 2.0.0 when it comes) and i may upload a js version to npm.
+ A high-level version of thulium is coming soon (after version 2.0.0 when it comes) and I may upload a js (and the original ts) version to npm.
