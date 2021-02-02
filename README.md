@@ -47,7 +47,7 @@
 
 ## Download
 
-### 1.0.0
+### [1.0.0](https://github.com/JavaCode7/Thulium/tree/v1.0.0)
 
  [Linux](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-linux)
 
