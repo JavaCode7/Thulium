@@ -1,0 +1,18 @@
+{
+    "name": "thulium",
+    "version": "1.0.3",
+    "description": "A simple esoteric programming language",
+    "main": "js/index.js",
+    "types": "js/index.d.ts",
+    "directories": {
+        "example": "examples"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["esolang", "ts", "typescript", "periodic-table"],
+    "author": "JavaCode7",
+    "license": "MIT"
+}

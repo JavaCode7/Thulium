@@ -3,3 +3,4 @@ tasks.json
 launch.json
 tsconfig.json
 src/node_modules
+src/js
