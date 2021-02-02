@@ -1,6 +1,6 @@
 settings.json
 tasks.json
 launch.json
-tsconfig.json
-src/node_modules
-src/js
+*tsconfig.json
+*node_modules
+*.tlmc

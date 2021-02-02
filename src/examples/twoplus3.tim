@@ -1,0 +1,13 @@
+add
+add
+mov_right
+add
+add
+add
+mov_left
+update
+SP to M
+mov_right
+mov_right
+M to C
+print
