@@ -60,7 +60,6 @@ function compile()
             compiled = compiled .. "C"
         end
     end
-    print(compiled)
     return compiled
 end
 

@@ -6,7 +6,6 @@ ctn: list = [i for i in bfr.read()]
 contents: list = []
 for i in ctn:
     contents.append(int(i, 16))
-print(contents)
 
 data = bytearray(len(contents))
 
