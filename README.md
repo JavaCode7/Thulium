@@ -1,7 +1,7 @@
 # Thulium
  A simple esoteric programming language written in TypeScript in under 3 hours.
 
- I got the idea for this programming language fom a repository I found called [Jellyscript](https://github.com/nguyenphuminh/Jellyscript) and decided to learn TypeScript by creating a version of it that's even more painful and weird. And I thought the best name for this language is something tht reflects the fact that it is devoid of all use. Thulium is the least useful element of the periodic table that is naturally occurring and that's the inspiration for the name.
+ I got the idea for this programming language from a repository I found called [Jellyscript](https://github.com/nguyenphuminh/Jellyscript) and decided to learn TypeScript by creating a version of it that's even more painful and weird. And I thought the best name for this language is something tht reflects the fact that it is devoid of all use. Thulium is the least useful element of the periodic table that is naturally occurring and that's the inspiration for the name.
 
  _**Before reading this please check out [Jellyscript](https://github.com/nguyenphuminh/Jellyscript). It's a great esolang and it will help you understand thulium 1 (version 2 is going to be less esoteric as it will be much more high-level) better.**_
 
