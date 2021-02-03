@@ -1,5 +1,6 @@
 fn = arg[1]
 out = arg[2]
+repeatkw = "^repeat"
 
 function file_exists(file)
     local f = io.open(file, "rb")
@@ -58,12 +59,23 @@ function compile()
             compiled = compiled .. "B"
         elseif i == "update" then
             compiled = compiled .. "C"
+        elseif i == "ascii_print" then
+            compiled = compiled .. "D"
+        elseif i == "input" then
+            compiled = compiled .. "E"
+        elseif i == "print2" then
+            compiled = compiled .. "F"
+        elseif i == "cond_start" then
+            compiled = compiled .. "G"
+        elseif i == "cond_end" then
+            compiled = compiled .. "H"
         end
     end
     return compiled
 end
 
-tlmc = io.open(out, "w+")
+tlmc = io.open(out, "w+b")
+print(tlmc)
 
 tlmc:write(compile())
 

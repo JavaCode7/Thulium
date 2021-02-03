@@ -1,4 +1,5 @@
 import { readFileSync } from 'fs';
+import { stdout } from 'process';
 
 const code = readFileSync(`./` + process.argv[2], 'utf-8');
 
@@ -43,48 +44,63 @@ function run(): void {
     parsed.forEach((element: any) => {
         switch (element) {
 
-            case "0000":
+            case "00000":
                 thu.index[0] ++;
                 break;
-            case "0001":
+            case "00001":
                 thu.index[0] --;
                 break;
-            case "0010":
+            case "00010":
                 thu.index[1] --;
                 break;
-            case "0011":
+            case "00011":
                 thu.index[1] ++;
                 break;
-            case "0100":
+            case "00100":
                 thu.spec_index ++;
                 break;
-            case "0101":
+            case "00101":
                 thu.spec_index --;
                 break;
-            case "0110":
+            case "00110":
                 console.log(thu.cells[thu.index[0]][thu.index[1]]);
                 break;
-            case "0111":
+            case "00111":
                 thu.memory = thu.spec[thu.spec_index];
                 break;
-            case "1000":
+            case "01000":
                 thu.cells[thu.index[0]][thu.index[1]] = thu.memory;
                 break;
-            case "1001":
+            case "01001":
                 thu.memory = thu.cells[thu.index[0]][thu.index[1]];
                 break;
-            case "1010":
+            case "01010":
                 thu.cells[thu.index[0]][thu.index[1]] ++;
                 break;
-            case "1011":
+            case "01011":
                 thu.cells[thu.index[0]][thu.index[1]] --;
                 break;
-            case "1100":
+            case "01100":
                 thu.spec[0] = thu.cells[thu.index[0]][thu.index[1]] + thu.cells[thu.index[0] + 1][thu.index[1]];
                 thu.spec[1] = thu.cells[thu.index[0]][thu.index[1]] - thu.cells[thu.index[0] + 1][thu.index[1]];
                 thu.spec[2] = thu.cells[thu.index[0]][thu.index[1]] * thu.cells[thu.index[0] + 1][thu.index[1]];
                 thu.spec[3] = thu.cells[thu.index[0]][thu.index[1]] / thu.cells[thu.index[0] + 1][thu.index[1]];
                 thu.spec[4] = thu.cells[thu.index[0]][thu.index[1]] ** thu.cells[thu.index[0] + 1][thu.index[1]];
+                break;
+            case "01101":
+                stdout.write(String.fromCharCode(thu.cells[thu.index[0]][thu.index[1]]));
+                break;
+            case "01110":
+                let a = prompt();
+                if (a == null){ a = "0"; }
+                thu.cells[thu.index[0]][thu.index[1]] = a[1].charCodeAt(0) ? a != null: 0;
+                break;
+            case "01111":
+                stdout.write(thu.cells[thu.index[0]][thu.index[1]])
+                break;
+            case "10000":
+                break;
+            case "10001":
                 break;
 
         }        
