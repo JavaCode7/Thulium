@@ -23,7 +23,7 @@ try:
     bfw.write(data)
     bfw2.write("\n")
     for i in r:
-        bfw2.write(str(i))
+        bfw2.write(str(i) + " ")
     bfw.close()
     bfr.close()
     bfw2.close()

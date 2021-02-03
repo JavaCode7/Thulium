@@ -75,7 +75,6 @@ function compile()
 end
 
 tlmc = io.open(out, "w+b")
-print(tlmc)
 
 tlmc:write(compile())
 
