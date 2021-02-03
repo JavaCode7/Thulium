@@ -1,11 +1,5 @@
 add
 add
-cond_start
-mov_right
-add
-mov_left
-sub
-cond_end
 mov_right
 add
 add

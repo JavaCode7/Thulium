@@ -12,21 +12,26 @@
  - 1 permanent memory cell
 
 ## Syntax
- Thulium has 13 commands (numbered 0 - 12 or 0000 - 1100), each doing something simple and trivial but when combined, can actually have a decent function.
+ Thulium has 18 commands (numbered 0 - 17 or 00000 - 10001), each doing something simple and trivial but when combined, can actually have a decent function.
 
- - 0000 -- this command moves right in the grid
- - 0001 -- left in the grid
- - 0010 -- up (grid)
- - 0011 -- down (grid)
- - 0100 -- forward in special cells
- - 0101 -- backward in special cells
- - 0110 -- prints the current cell to the console
- - 0111 -- moves the current special cell value to the memory
- - 1000 -- moves the memory to the current cell
- - 1001 -- moves the current cell's value to the memory
- - 1010 -- increases the current cell's value by 1
- - 1011 -- opposite of 1010
- - 1100 -- updates the special cells
+ - mov_right -- this command moves right in the grid
+ - mov_left -- left in the grid
+ - mov_up -- up (grid)
+ - mov_down -- down (grid)
+ - spec_right -- forward in special cells
+ - spec_left -- backward in special cells
+ - print -- prints the current cell to the console (with \n)
+ - SP to M -- moves the current special cell value to the memory
+ - M to C -- moves the memory to the current cell
+ - C to M -- moves the current cell's value to the memory
+ - add -- increases the current cell's value by 1
+ - sub -- opposite of 1010
+ - update -- updates the special cells
+ - ascii_print -- prints the current cell's ascii value
+ - input -- takes one byte as input and stores its ascii char code
+ - print2 -- prints the current cell to the console (no \n)
+ - cond_start -- same as brainf**k's '['
+ - cond_end -- same as brainf**k's ']'
 
  Commands are written line by line, one command per line.
 
