@@ -4,3 +4,4 @@ launch.json
 *tsconfig.json
 *node_modules
 *.tlmc
+*__pycache__
