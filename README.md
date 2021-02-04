@@ -31,8 +31,8 @@
  - ascii_print -- prints the current cell's ascii value
  - input -- takes one byte as input and stores its ascii char code
  - print2 -- prints the current cell to the console (no \n)
- - cond_start -- same as brainf**k's '['
- - cond_end -- same as brainf**k's ']'
+ - cond_start -- same as brainf**k's '[' (coming soon)
+ - cond_end -- same as brainf**k's ']' (coming soon)
 
  Commands are written line by line, one command per line.
 
