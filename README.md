@@ -66,4 +66,4 @@
 
 ## Future Updates
 
- Thulium 3.0.0 will be a lot more like bf and will actually have a shell.
+ Thulium 3.0.0 will be a lot more like bf and will actually have a shell. I may also add shells to versions 2 and 1.
