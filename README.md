@@ -3,13 +3,14 @@
 
  I got the idea for this programming language from a repository I found called [Jellyscript](https://github.com/nguyenphuminh/Jellyscript) and decided to learn TypeScript by creating a version of it that's even more painful and weird. And I thought the best name for this language is something tht reflects the fact that it is devoid of all use. Thulium is the least useful element of the periodic table that is naturally occurring and that's the inspiration for the name.
 
- _**Before reading this please check out [Jellyscript](https://github.com/nguyenphuminh/Jellyscript). It's a great esolang and it will help you understand thulium 1 (version 2 is going to be less esoteric as it will be much more high-level) better.**_
+ _**Before reading this please check out [Jellyscript](https://github.com/nguyenphuminh/Jellyscript). It's a great esolang and it will help you understand thulium 1 (version 2 is less esoteric as it is be much more high-level) better.**_
 
 ## Assets
- - 13 commands,
+ - 18 commands,
  - 5 special cells that update and do basic expressions,
  - 1000 by 1000 grid,
  - 1 permanent memory cell
+ - High-level
 
 ## Syntax
  Thulium has 18 commands (numbered 0 - 17 or 00000 - 10001), each doing something simple and trivial but when combined, can actually have a decent function.
@@ -39,18 +40,19 @@
 
  Addition (2+3)
 
-    1010
-    1010
-    0000
-    1010
-    1010
-    1010
-    1100
-    0001
-    1100
-    0111
-    1000
-    0110
+    add
+    add
+    mov_right
+    add
+    add
+    add
+    mov_left
+    update
+    SP to M
+    mov_right
+    mov_right
+    M to C
+    print
 
 ## Download
 
@@ -64,4 +66,4 @@
 
 ## Future Updates
 
- A high-level version of thulium is coming soon (after version 2.0.0 when it comes) and I may upload a js (and the original ts) version to npm.
+ Thulium 3.0.0 will be a lot more like bf and will actually have a shell.
