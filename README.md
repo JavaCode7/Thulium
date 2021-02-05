@@ -26,7 +26,7 @@
  - M to C -- moves the memory to the current cell
  - C to M -- moves the current cell's value to the memory
  - add -- increases the current cell's value by 1
- - sub -- opposite of 1010
+ - sub -- opposite of add
  - update -- updates the special cells
  - ascii_print -- prints the current cell's ascii value
  - input -- takes one byte as input and stores its ascii char code
