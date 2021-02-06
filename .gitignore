@@ -1,7 +1,16 @@
+# VScode config
 settings.json
 tasks.json
 launch.json
+
+# tsc config
 *tsconfig.json
+
+# libs
 *node_modules
+
+# Thulium compiled
 *.tlmc
+
+# Python compiled
 *__pycache__
