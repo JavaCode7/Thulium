@@ -14,3 +14,4 @@ launch.json
 
 # Python compiled
 *__pycache__
+*.pyc
