@@ -1,7 +1,7 @@
 # Thulium
- A simple esoteric programming language written in TypeScript in under 3 hours.
+ A simple esoteric programming language written in TypeScript, Lua and Python.
 
- I got the idea for this programming language from a repository I found called [Jellyscript](https://github.com/nguyenphuminh/Jellyscript) and decided to learn TypeScript by creating a version of it that's even more painful and weird. And I thought the best name for this language is something tht reflects the fact that it is devoid of all use. Thulium is the least useful element of the periodic table that is naturally occurring and that's the inspiration for the name.
+ Finally! Thulium 2 is here!
 
  _**Before reading this please check out [Jellyscript](https://github.com/nguyenphuminh/Jellyscript). It's a great esolang and it will help you understand thulium 1 (version 2 is less esoteric as it is much more high-level) better.**_
 
@@ -56,13 +56,17 @@
 
 ## Download
 
+### [2.0.0](https://github.com/JavaCode7/Thulium/tree/v2.0.0)
+
+ [Windows](https://github.com/JavaCode7/Thulium/releases/download/v2.0.0/thulium.zip)
+
 ### [1.0.0](https://github.com/JavaCode7/Thulium/tree/v1.0.0)
 
  [Linux](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-linux)
 
  [Windows](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-win.exe)
 
- [Macos](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-macos)
+ [Mac OS](https://github.com/JavaCode7/Thulium/releases/download/v1.0.0/thulium-macos)
 
 ## Future Updates
 
