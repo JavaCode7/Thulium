@@ -1,13 +1,13 @@
 @echo off
 if "%1" == "run" (
-	bin\thu1.exe "%2" "%3"
-	bin\thu2.exe "%3"
-	bin\thu3.exe "%3"
+	thu1.exe "%2" "%3"
+	thu2.exe "%3"
+	thu3.exe "%3"
 ) else if "%1" == "build" (
-	bin\thu1.exe "%2" "%3"
-	bin\thu2.exe "%3"
+	thu1.exe "%2" "%3"
+	thu2.exe "%3"
 ) else if "%1" == "execute" (
-	bin\thu3.exe "%2"
+	thu3.exe "%2"
 ) else if "%1" == "version" (
 	echo Thulium v2.0.0
 ) else if "%1" == "" (
