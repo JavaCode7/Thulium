@@ -1,5 +1,10 @@
 import { readFileSync } from 'fs';
 import { stdout } from 'process';
+import * as readline from 'readline'
+
+var stdin = readline.createInterface({
+  input: process.stdin
+});
 
 const code = readFileSync(`./` + process.argv[2], 'utf-8');
 
@@ -91,12 +96,16 @@ function run(): void {
                 stdout.write(String.fromCharCode(thu.cells[thu.index[0]][thu.index[1]]));
                 break;
             case "01110":
-                let a = prompt();
+                var a = ""
+                stdin.question("", function(answer: any) {
+                    a = answer;
+                    stdin.close();
+                });
                 if (a == null){ a = "0"; }
                 thu.cells[thu.index[0]][thu.index[1]] = a[1].charCodeAt(0) ? a != null: 0;
                 break;
             case "01111":
-                stdout.write(thu.cells[thu.index[0]][thu.index[1]])
+                stdout.write(String(thu.cells[thu.index[0]][thu.index[1]]))
                 break;
             case "10000":
                 break;
