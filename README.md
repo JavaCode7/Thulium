@@ -1,3 +1,10 @@
+<div align="center">
+  <img src="assets/Thulium logo.png" >
+  <br>
+  <br>
+  <br>
+</div>
+
 # Thulium
  A simple esoteric programming language written in TypeScript, Lua and Python.
 
