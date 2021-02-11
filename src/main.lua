@@ -69,6 +69,8 @@ function compile()
             compiled = compiled .. "G"
         elseif i == "cond_end" then
             compiled = compiled .. "H"
+        elseif i == "end" then
+            compiled = compiled .. "I"
         end
     end
     return compiled

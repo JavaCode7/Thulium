@@ -56,6 +56,10 @@
 
 ## Downloads
 
+### [2.0.3](https://github.com/JavaCode7/Thulium/tree/v2.0.3)
+
+ [Windows](https://github.com/JavaCode7/Thulium/releases/download/v2.0.3/thulium.zip)
+
 ### [2.0.2](https://github.com/JavaCode7/Thulium/tree/v2.0.2)
 
  [Windows](https://github.com/JavaCode7/Thulium/releases/download/v2.0.2/thulium.zip)

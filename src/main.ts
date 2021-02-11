@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { stdout } from 'process';
+import { exit, stdout } from 'process';
 import * as readline from 'readline'
 
 var stdin = readline.createInterface({
@@ -111,8 +111,10 @@ function run(): void {
                 break;
             case "10001":
                 break;
+            case "10010":
+                exit();
 
-        }        
+        }
     });
 }
 
