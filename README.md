@@ -13,7 +13,7 @@
  - High-level
 
 ## Syntax
- Thulium has 18 commands (numbered 0 - 17 or 00000 - 10001), each doing something simple and trivial but when combined, can actually have a decent function.
+ Thulium has 19 commands (numbered 0 - 18 or 00000 - 10010), each doing something simple and trivial but when combined, can actually have a decent function.
 
  - mov_right -- this command moves right in the grid
  - mov_left -- left in the grid
@@ -33,6 +33,7 @@
  - print2 -- prints the current cell to the console (no \n)
  - cond_start -- same as brainf**k's '[' (coming soon)
  - cond_end -- same as brainf**k's ']' (coming soon)
+ - end -- Used to denote the end of a program
 
  Commands are written line by line, one command per line.
 
@@ -53,6 +54,7 @@
     mov_right
     M to C
     print
+    end
 
 ## Downloads
 
