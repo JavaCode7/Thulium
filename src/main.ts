@@ -12,7 +12,7 @@ const getSourceFilename = (args:Array<string>):string | null => {
     if(args.length > 0){
         return args[0]
     } else {
-        return null
+        return "undefined file"
     }
 }
 
@@ -25,7 +25,7 @@ const getFileContent = (filename:string | null):string => {
         return readFileSync(filename, "utf-8")
     } catch(error) {
         
-        console.log(red(`Cannot read ${filename}`))
+        console.log(red(`Cannot read "${filename}"`))
         exit()
     }
 }
